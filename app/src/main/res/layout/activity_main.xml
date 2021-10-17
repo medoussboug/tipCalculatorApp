@@ -23,4 +23,34 @@
         android:text="how was the service ?"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cost_of_service" />
+
+    <RadioGroup
+        android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:checkedButton="@id/ok_option"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/service_question">
+
+        <RadioButton
+            android:id="@+id/amazing_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amazing (20%)" />
+
+        <RadioButton
+            android:id="@+id/good_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Good (18%)" />
+
+        <RadioButton
+            android:id="@+id/ok_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok (15%)" />
+
+    </RadioGroup>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
