@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/androidProjects/TipCalculator/app/src/main/res/drawable/ic_baseline_call_made_24.xml" value="0.1703125" />
+        <entry key="..\:/androidProjects/TipCalculator/app/src/main/res/drawable/ic_baseline_room_service_24.xml" value="0.1703125" />
+        <entry key="..\:/androidProjects/TipCalculator/app/src/main/res/drawable/ic_baseline_store_24.xml" value="0.1703125" />
         <entry key="..\:/androidProjects/TipCalculator/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/androidProjects/TipCalculator/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.60625" />
       </map>
